@@ -1,0 +1,116 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+header .logo{
+    margin-left: 2rem;
+    width: 50%;
+    height: auto;
+}
+.boxes{
+    background-image: url(./images/Cybertruck.jpg);
+    height: 150vh;
+    width: 100%;
+    background-size: cover;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#im img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+#im{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.details{
+    width: 50%;
+    margin: auto;  
+    text-align: center;
+    padding-top: 130px;
+    height: Auto;
+}
+.details h1, .box2 h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.details h3, .box2 h3{
+    font-size: 18px;
+    margin-top: 0;
+}
+.btn{
+    margin-top: 80vh;
+    color: white;
+}
+.btn button{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 10px;
+}
+.dark{
+    background-color: rgb(50, 56, 56);
+    color: white;
+}
+.white{
+    background-color: rgb(236, 238, 240);
+}
+/*box 2*/
+.box2{
+    width: 50%;
+    margin: auto;  
+    text-align: center;
+    padding-top: 100px;
+    height: Auto;
+    background-image: url(./images/road.jpg);
+    height: 115vh;
+    width: 100%;
+    background-size: cover;
+}
+/*footer*/
+footer{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    margin-top: 130vh ;
+}
+.end{
+    padding-top: 20px;
+    width: 50%;
+    margin: auto;
+    padding-right: 110px;
+}
+footer .end ul li a{
+    padding: 5px;
+    margin: 5px;
+    font-weight: 100;
+    font-size: small;
+}
